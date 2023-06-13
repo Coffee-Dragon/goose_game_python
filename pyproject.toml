@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goose-game"
+version = "1.0.0"
+description = ""
+authors = ["Coffee-Dragon <alina.offic@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goose_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
